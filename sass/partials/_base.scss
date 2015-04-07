@@ -1,0 +1,52 @@
+// 
+// Estilos para los elementos base
+//
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+ul, ol {
+  margin: 0;
+}
+
+p, li {
+  font-family: $serif;
+  margin-bottom: 0.3em;
+  @include font-size(14);
+  color: $texto1;
+}
+
+a {
+  color: $texto2;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-family: $sans;
+  color: $texto1;
+}
+
+// Patrones
+
+.section-header {
+  width: 100%;
+  border-bottom: 1px solid #000;
+  color: #000;
+  text-transform: uppercase;
+  padding-bottom: 0.5em;
+  margin-bottom: 40px;
+}

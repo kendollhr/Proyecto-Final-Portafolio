@@ -1,0 +1,54 @@
+//
+// Estilos para la navegación
+//
+
+// Estilos generales
+
+nav {
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+  }
+}
+
+// Navegación principal
+.main-nav {
+  background-color: $background1;
+  li {
+    vertical-align: top;
+  }
+  a {
+    color: #fff;
+    display: block;
+    height: 100px;
+    padding: 0 30px;
+    line-height: 100px;
+    font-family: $sans;
+    @include font-size(20);
+  }
+  // Enlace a Inicio
+  li:first-child a {
+    width: 150px;
+    background: lighten($destacado1, 50%) url(../img/logo.png) no-repeat center;
+    @extend %text-hidden;
+  }
+}
+
+// Navegación footer
+.footer-nav {
+  text-align: center;
+  li {
+    padding: 0 5px;
+  }
+  a {
+    display: block;
+    border-bottom: 1px #fff solid;
+    color: #fff;
+    padding: 5px;
+    font-family: $sans;
+  }
+}

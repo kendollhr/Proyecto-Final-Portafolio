@@ -1,0 +1,24 @@
+//
+// Layout styles
+//
+
+.header-content {
+  height: 450px;
+}
+
+.main-nav ul, .header-content {
+  @extend %container;
+}
+
+.l-acerca, .l-patrocinadores, .l-registro {
+  @extend %content;
+  padding: 100px 0;
+}
+
+footer {
+  padding: 150px 0 60px 0;
+  background-color: $background1;
+  .footer-nav {
+    @extend %container;
+  }
+}

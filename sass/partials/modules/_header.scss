@@ -1,0 +1,36 @@
+//
+// Estilos del header
+//
+
+header {
+  background-color: $destacado1;
+}
+
+.header-content {
+  background: url(../img/banner-head.jpg) no-repeat;
+  text-align: center;
+  color: #fff;
+  h1, h2, h3 {
+    color: #fff;
+  }
+  h2 {
+    @include font-size(18);
+    &:before, &:after {
+      content: "\2022";
+      margin: 0 0.6em;
+    }
+  }
+  h3 {
+    color: #000;
+    text-transform: uppercase;
+    @include font-size(16);
+    margin: 20px 0;
+  }
+  h3 + h3 {
+    color: #fff;
+    text-transform: none;
+  }
+  .button {
+    @include button(14, red, blue);
+  }
+}
