@@ -2,6 +2,22 @@
 // Estilos del header
 //
 
+<<<<<<< HEAD
+.header-nav{
+  overflow: hidden;
+}
+
+.logo {
+  background: url(../imagen/DSC_0232.JPG) no-repeat center center;
+  border-radius: 50px;
+  float: left;
+  width: 230px;
+  height: 332px;
+  position: absolute;
+  z-index: 2000;
+  left:  170px;
+  margin-top: 96px;
+=======
 header {
   background-color: $destacado1;
 }
@@ -33,4 +49,5 @@ header {
   .button {
     @include button(14, red, blue);
   }
+>>>>>>> eb25826c71ac9d1ada3735dcecf9b523cef3de23
 }

@@ -1,0 +1,21 @@
+//
+// Mixins
+//
+
+// font-size mixin
+@mixin font-size($size) {
+  font-size: $size + px;
+  font-size: ($size / 10) + rem;
+}
+
+// Botón
+@mixin button($font-size, $text-color: #fff, $border-color: #fff, $transform: none, $radius: 3px) {
+  display: inline-block;
+  @include font-size($font-size);
+  padding: 0.5em 2em;
+  border: 1px solid $border-color;
+  border-radius: $radius;
+  color: $text-color;
+  text-transform: $transform;
+  font-family: $sans;
+}

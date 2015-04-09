@@ -2,7 +2,6 @@
 // Layout styles
 //
 
-<<<<<<< HEAD
 .jumbotron {
 	background: url(../imagen/diseno-web-slider.jpg) no-repeat center center;
 	background-size: 100% 100%;
@@ -154,25 +153,4 @@
   height: 84px;
   margin-top: -84px;
   margin-right: 5px;
-=======
-.header-content {
-  height: 450px;
-}
-
-.main-nav ul, .header-content {
-  @extend %container;
-}
-
-.l-acerca, .l-patrocinadores, .l-registro {
-  @extend %content;
-  padding: 100px 0;
-}
-
-footer {
-  padding: 150px 0 60px 0;
-  background-color: $background1;
-  .footer-nav {
-    @extend %container;
-  }
->>>>>>> eb25826c71ac9d1ada3735dcecf9b523cef3de23
 }

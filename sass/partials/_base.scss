@@ -5,6 +5,10 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+<<<<<<< HEAD
+  max-width: 1024px;
+=======
+>>>>>>> eb25826c71ac9d1ada3735dcecf9b523cef3de23
 }
 
 * {
@@ -14,11 +18,28 @@ html {
 body {
   margin: 0;
 }
+<<<<<<< HEAD
+a{
+  text-decoration: none;
+}
+=======
 
+>>>>>>> eb25826c71ac9d1ada3735dcecf9b523cef3de23
 ul, ol {
   margin: 0;
 }
 
+<<<<<<< HEAD
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-family: "Roboto", "Sinkin Sans", "Times New Roman", Times, Arial, serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+
+}
+
+// Patrones
+=======
 p, li {
   font-family: $serif;
   margin-bottom: 0.3em;
@@ -50,3 +71,4 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 0.5em;
   margin-bottom: 40px;
 }
+>>>>>>> eb25826c71ac9d1ada3735dcecf9b523cef3de23

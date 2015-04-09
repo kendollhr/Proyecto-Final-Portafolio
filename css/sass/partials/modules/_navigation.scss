@@ -1,0 +1,41 @@
+//
+// Estilos para la navegación
+//
+
+// Estilos generales
+
+.nav-header {
+  position: absolute;
+  z-index: 2000;
+  left: 40%;
+  padding-top: 19px;
+  
+  .links {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+  }
+  .nav-links {
+    margin: 0px 10px;
+    font-size: 13px;
+  }
+}
+
+.nav-links-a{
+  color: #000;
+}
+
+// Navegación principal
+
+
+
+// Navegación footer
+.footer-section-right {
+  background-color: $background2;
+  width: 49%;
+  position: absolute;
+  right: 1px;
+  height: 84px;
+  margin-top: -84px;
+  margin-right: 5px;
+}
