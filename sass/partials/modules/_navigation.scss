@@ -4,26 +4,24 @@
 
 // Estilos generales
 
-<<<<<<< HEAD
 .nav-header {
   position: absolute;
   z-index: 2000;
   left: 40%;
   padding-top: 19px;
-  
-  .links {
-=======
+}
+
 nav {
   ul {
     padding: 0;
   }
   li {
->>>>>>> eb25826c71ac9d1ada3735dcecf9b523cef3de23
+
     list-style-type: none;
     display: inline-block;
     margin: 0;
   }
-<<<<<<< HEAD
+
   .nav-links {
     margin: 0px 10px;
     font-size: 13px;
@@ -47,7 +45,6 @@ nav {
   height: 84px;
   margin-top: -84px;
   margin-right: 5px;
-=======
 }
 
 // Navegación principal
@@ -86,5 +83,4 @@ nav {
     padding: 5px;
     font-family: $sans;
   }
->>>>>>> eb25826c71ac9d1ada3735dcecf9b523cef3de23
 }

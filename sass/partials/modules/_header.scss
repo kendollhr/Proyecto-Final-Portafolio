@@ -2,7 +2,6 @@
 // Estilos del header
 //
 
-<<<<<<< HEAD
 .header-nav{
   overflow: hidden;
 }
@@ -17,7 +16,7 @@
   z-index: 2000;
   left:  170px;
   margin-top: 96px;
-=======
+}
 header {
   background-color: $destacado1;
 }
@@ -49,5 +48,4 @@ header {
   .button {
     @include button(14, red, blue);
   }
->>>>>>> eb25826c71ac9d1ada3735dcecf9b523cef3de23
 }
