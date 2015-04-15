@@ -1,11 +1,7 @@
-.main-nav ul, .header-content, footer .footer-nav {
+footer .footer-nav {
   max-width: 1400px;
   margin: 0 auto;
   overflow: hidden; }
-
-.l-acerca, .l-patrocinadores, .l-registro {
-  max-width: 960px;
-  margin: 0 auto; }
 
 .main-nav li:first-child a {
   text-indent: 100%;
@@ -83,46 +79,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 48%;
   display: inline-block; }
 
-.content-about {
-  background: url(../imagen/Bandera-de-Costa-Rica-ondeando.jpeg) no-repeat center center;
-  background-size: 100% 100%;
-  font-size: 16px;
-  color: #fff;
-  height: 800px;
-  overflow: hidden;
-  margin-top: 70px;
-  margin-bottom: 70px; }
-  .content-about .about-description {
-    width: 70%;
-    padding-left: 146px;
-    margin-top: 65px; }
-  .content-about .content-about-left {
-    background: url(../imagen/vida.jpg) no-repeat center center;
-    background-size: 50% 70%;
-    height: 700px;
-    float: left;
-    margin-top: -83px; }
-  .content-about .content-about-right .about-section-up {
-    text-align: center;
-    background-color: rgba(177, 181, 184, 0.9);
-    height: 140px;
-    width: 60%;
-    margin-top: 61px; }
-    .content-about .content-about-right .about-section-up .about-ul-left, .content-about .content-about-right .about-section-up .about-ul-right {
-      display: inline-block;
-      margin: 0 auto; }
-  .content-about .content-about-right .about-section-down, .content-about .content-about-right .footer-section-left {
-    margin-top: 60px; }
-    .content-about .content-about-right .about-section-down .logo-tel, .content-about .content-about-right .about-section-down .logo-email, .content-about .content-about-right .footer-section-left .logo-tel, .content-about .content-about-right .footer-section-left .logo-email {
-      height: 40px; }
-    .content-about .content-about-right .about-section-down .tel, .content-about .content-about-right .about-section-down .email, .content-about .content-about-right .footer-section-left .tel, .content-about .content-about-right .footer-section-left .email {
-      float: right; }
-    .content-about .content-about-right .about-section-down .contact-email, .content-about .content-about-right .about-section-down .contact-tel, .content-about .content-about-right .footer-section-left .contact-email, .content-about .content-about-right .footer-section-left .contact-tel {
-      width: 44%;
-      overflow: hidden; }
-    .content-about .content-about-right .about-section-down .tel, .content-about .content-about-right .footer-section-left .tel {
-      margin-right: 44px; }
-
 .content-skill .content-skill-avatar {
   background: url(../imagen/avatar.png) no-repeat center center;
   background-size: 50% 70%;
@@ -154,35 +110,8 @@ h1, h2, h3, h4, h5, h6 {
     float: right;
     margin-right: 100px; }
 
-.footer {
-  background-color: rgba(177, 181, 184, 0.9); }
-  .footer .footer-section-left {
-    width: 48%;
-    margin-top: 60px; }
-    .footer .footer-section-left .logo-tel, .footer .footer-section-left .logo-email {
-      height: 40px; }
-    .footer .footer-section-left .tel, .footer .footer-section-left .email {
-      float: right; }
-    .footer .footer-section-left .contact-email, .footer .footer-section-left .contact-tel {
-      width: 44%;
-      overflow: hidden; }
-    .footer .footer-section-left .tel {
-      margin-right: 44px; }
-
-.footer-section-right {
-  background-color: rgba(177, 181, 184, 0.9);
-  width: 49%;
-  position: absolute;
-  right: 1px;
-  height: 84px;
-  margin-top: -84px;
-  margin-right: 5px; }
-
 .header-content {
   height: 450px; }
-
-.l-acerca, .l-patrocinadores, .l-registro {
-  padding: 100px 0; }
 
 footer {
   padding: 150px 0 60px 0;
@@ -292,6 +221,70 @@ header {
     color: red;
     text-transform: none;
     font-family: Helvetica, Arial, sans-serif; }
+
+.content-about {
+  background: url(../imagen/Bandera-de-Costa-Rica-ondeando.jpeg) no-repeat center center;
+  background-size: 100% 100%;
+  font-size: 16px;
+  color: #fff;
+  height: 800px;
+  overflow: hidden;
+  margin-top: 70px;
+  margin-bottom: 70px; }
+  .content-about .about-description {
+    width: 70%;
+    padding-left: 146px;
+    margin-top: 65px; }
+  .content-about .content-about-left {
+    background: url(../imagen/vida.jpg) no-repeat center center;
+    background-size: 50% 70%;
+    height: 700px;
+    float: left;
+    margin-top: -83px; }
+  .content-about .content-about-right .about-section-up {
+    text-align: center;
+    background-color: rgba(177, 181, 184, 0.9);
+    height: 140px;
+    width: 60%;
+    margin-top: 61px; }
+    .content-about .content-about-right .about-section-up .about-ul-left, .content-about .content-about-right .about-section-up .about-ul-right {
+      display: inline-block;
+      margin: 0 auto; }
+  .content-about .content-about-right .about-section-down, .content-about .content-about-right .footer-section-left {
+    margin-top: 60px; }
+    .content-about .content-about-right .about-section-down .logo-tel, .content-about .content-about-right .about-section-down .logo-email, .content-about .content-about-right .footer-section-left .logo-tel, .content-about .content-about-right .footer-section-left .logo-email {
+      height: 40px; }
+    .content-about .content-about-right .about-section-down .tel, .content-about .content-about-right .about-section-down .email, .content-about .content-about-right .footer-section-left .tel, .content-about .content-about-right .footer-section-left .email {
+      float: right; }
+    .content-about .content-about-right .about-section-down .contact-email, .content-about .content-about-right .about-section-down .contact-tel, .content-about .content-about-right .footer-section-left .contact-email, .content-about .content-about-right .footer-section-left .contact-tel {
+      width: 44%;
+      overflow: hidden; }
+    .content-about .content-about-right .about-section-down .tel, .content-about .content-about-right .footer-section-left .tel {
+      margin-right: 44px; }
+
+.footer {
+  background-color: rgba(177, 181, 184, 0.9); }
+  .footer .footer-section-left {
+    width: 48%;
+    margin-top: 60px; }
+    .footer .footer-section-left .logo-tel, .footer .footer-section-left .logo-email {
+      height: 40px; }
+    .footer .footer-section-left .tel, .footer .footer-section-left .email {
+      float: right; }
+    .footer .footer-section-left .contact-email, .footer .footer-section-left .contact-tel {
+      width: 44%;
+      overflow: hidden; }
+    .footer .footer-section-left .tel {
+      margin-right: 44px; }
+
+.footer-section-right {
+  background-color: rgba(177, 181, 184, 0.9);
+  width: 49%;
+  position: absolute;
+  right: 1px;
+  height: 84px;
+  margin-top: -84px;
+  margin-right: 5px; }
 
 .about-section-tittle {
   background-color: #b1b5b8;

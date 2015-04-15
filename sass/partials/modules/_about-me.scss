@@ -1,0 +1,52 @@
+.content-about{
+	background: url(../imagen/Bandera-de-Costa-Rica-ondeando.jpeg) no-repeat center center;
+	background-size: 100% 100%;
+	font-size: 16px;
+	color: #fff;
+	height: 800px;
+	overflow: hidden;
+	margin-top: 70px;
+	margin-bottom: 70px;
+		.about-description{
+			width: 70%;
+			padding-left: 146px;
+			margin-top: 65px;
+		}
+		.content-about-left{
+			background: url(../imagen/vida.jpg) no-repeat center center;
+			background-size: 50% 70%;
+			height: 700px;
+			float: left;
+			margin-top: -83px;
+		}
+		.content-about-right{
+			.about-section-up{
+				text-align: center;
+				background-color: $background2;
+	    		height: 140px;
+	    		width: 60%;
+	    		margin-top: 61px;
+    		.about-ul-left, .about-ul-right{
+		    	display: inline-block;
+		    	margin: 0 auto;
+				}
+			}
+			.about-section-down, .footer-section-left{
+			  margin-top: 60px;
+					.logo-tel, .logo-email{
+				  height: 40px;
+					}
+					.tel, .email{
+				  float: right;
+					}
+					.contact-email, .contact-tel{
+						width: 44%;
+						overflow: hidden;
+					}
+					.tel{
+						margin-right: 44px;
+					}
+			}
+		}
+
+}

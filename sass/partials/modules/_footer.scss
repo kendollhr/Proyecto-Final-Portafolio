@@ -1,0 +1,30 @@
+.footer{
+	background-color: $background2;
+	.footer-section-left{
+		  width: 48%;
+		margin-top: 60px;
+		.logo-tel, .logo-email{
+			height: 40px;
+			}
+		.tel, .email{
+			float: right;
+						}
+		.contact-email, .contact-tel{
+			width: 44%;
+			overflow: hidden;
+			}
+			.tel{
+				margin-right: 44px;
+			}
+	}
+}
+
+.footer-section-right {
+  background-color: $background2;
+  width: 49%;
+  position: absolute;
+  right: 1px;
+  height: 84px;
+  margin-top: -84px;
+  margin-right: 5px
+ }
