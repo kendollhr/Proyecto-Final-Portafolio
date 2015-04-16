@@ -7,15 +7,17 @@
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
     </head>
     <body>
-      <header class="header-nav">
+      <header class="header-global">
 				<a class="logo" href="index.html"></a>
 				<nav class="nav-header">
-					<li href="#" class="links nav-links">Inicio</li>
-					<li href="#l" class="links links nav-links">Acerca de mi</li>
-					<li href="#" class="links nav-links">Portafolio</li>
-					<li href="#" class="links nav-links">Habilidades</li>
+                    <ul class="nav-header-list">
+    					<li href="#" class="item nav-items">Inicio</li>
+                        <li href="#" class="item nav-items">Portafolio</li>
+    					<li href="#l" class="item nav-items">Acerca de mi</li>
+    					<li href="#" class="item nav-items">Habilidades</li>
+                    </ul>
 				</nav>
-                <a href="#" class="links nav-link-contact">Contacteme</a>
+                <a href="#" class="item nav-items-contact">Contacteme</a>
 			</header> <!-- .navegacion-principal END -->
        <div class="jumbotron">
 				<h1 class="jumbotron-title title-big">
@@ -23,30 +25,64 @@
 				</h1>
                 <p class="jumbotron-text">Diseñador y Desarrollador Web</p>
         </div> <!-- .jumbotron END -->
-        <div class="about about-content">
+
+        <div class="portfolio-proyect content">
+            <div class="proyects">
+               <h2 class="proyect-title title-center">Portafolio</h2>
+                <section class="colum portfolio-proyect">
+                    <h3 class="proyect-subtitle">Landing-Drupal</h3>
+                    <img class="proyect-imagen" src="imagen/escoger_web.jpg" alt="">
+                    <p class="proyect-text">Proyecto que realice con ayuda del profe Albeto el cual me enseño nuevas tecnicas y material nuevo para hace un mejor trabajo</p>
+                    <a href="" class="visit">Visitar pagina</a>
+                </section>
+                <section class="colum portfolio-proyect">
+                    <h3 class="proyect-subtitle">Caminito</h3>
+                    <img class="proyect-imagen" src="imagen/escoger_web.jpg" alt="">
+                    <p class="proyect-text">Proyecto que realice solo en el cual implemente conocimiento nuevo de lo aprendido en clase y senti una mejora en su elavoracion</p>
+                    <a href="" class="visit">Visitar pagina</a>
+                </section>
+            </div>
+            <div class="proyects">
+                <section class="colum portfolio-proyect">
+                    <h3 class="proyect-subtitle">Iluminada</h3>
+                    <img class="proyect-imagen" src="imagen/escoger_web.jpg" alt="">
+                    <p class="proyect-text">Proyecto que realice en grupo fue uno de los mas duros por que lo trabajamos en un repositorio en conjunto.</p>
+                    <a href="" class="visit">Visitar pagina</a>
+                </section>
+                <section class="colum portfolio-proyect">
+                    <h3 class="proyect-subtitle">Inventario</h3>
+                    <img class="proyect-imagen" src="imagen/escoger_web.jpg" alt="">
+                    <p class="proyect-text">Proyecto que realize con el profe Edison en JS lo cual me gusto xq pude lograr bastante con conocimiento de lo aprendido en clase me senti bien por la mejora alcanzada</p>
+                    <a href="" class="visit">Visitar pagina</a>
+                </section>
+            </div>
+                <a href="#" class="expand">Expand</a>
+        </div><!-- .portfolio-proyects END -->
+
+        <div class="about about-content content">
             <div class="about about-subcontent">
-                <h2 class="title-center">Acerca de mi</h2>
+                <h2 class="about-title title-center">Acerca de mi</h2>
                 <p class="about-description">Buenas bienvenido a mi portafolio en esta seccion conoceras un poco quien soy, mi nombre es Kendoll Herradora Rojas vivo en San Jose,Hatillo me gusta jugar futbol , pasar tiempo con mi familia sobre todo mas cuando la paso con mi hermosa hija la cual me inspiro a trabajr en esto para entregarle un mejor futuro a ella.</p>
                 <div class="colum content-about-left">
                     <img class="about-life"src="imagen/vida.jpg">
                 </div>
                 <div class="colum content-about-right">
-                    <section class="about-section-up">
+                    <section class="about-section-header">
                         <h3 class="about-section-tittle">Virtudes:</h3>
                         <ul class="about-ul-left">
-                            <li class="ul-lista">Resiliencia</li>
-                            <li class="ul-lista">Empatia</li>
-                            <li class="ul-lista">Alegre</li>
-                            <li class="ul-lista">Confianza</li>
+                            <li class="ul-list">Resiliencia</li>
+                            <li class="ul-list">Empatia</li>
+                            <li class="ul-list">Alegre</li>
+                            <li class="ul-list">Confianza</li>
                         </ul>
                         <ul class="about-ul-right">
-                            <li class="ul-lista">Esperanza</li>
-                            <li class="ul-lista">Buen Aprendiz</li>
-                            <li class="ul-lista">Conciente</li>
-                            <li class="ul-lista">Honesto</li>
+                            <li class="ul-list">Esperanza</li>
+                            <li class="ul-list">Buen Aprendiz</li>
+                            <li class="ul-list">Conciente</li>
+                            <li class="ul-list">Honesto</li>
                         </ul>
                     </section>
-                    <section class="about-section-down">
+                    <section class="about-section-footer">
                       <div class="contact-email">
                         <img class="logo-email"src="imagen/logo-email.png" alt="">
                         <p class="email">kendollhr@gmail.com</p>
@@ -60,56 +96,37 @@
             </div>    
         </div><!-- .content-about END -->
 
-        <div class="portfolio-proyect">
-        <div class="proyects">
-           <h2 class="title-center">Portafolio</h2>
-            <section class="colum portfolio-proyect">
-                <h3 class="proyect-title">Landing-Drupal</h3>
-                <img class="proyect-imagen" src="imagen/escoger_web.jpg" alt="">
-                <p class="proyect-text">Proyecto que realice con ayuda del profe Albeto el cual me enseño nuevas tecnicas y material nuevo para hace un mejor trabajo</p>
-                <a href="" class="visit">Visitar pagina</a>
-            </section>
-            <section class="colum portfolio-proyect">
-                <h3 class="proyect-title">Caminito</h3>
-                <img class="proyect-imagen" src="imagen/escoger_web.jpg" alt="">
-                <p class="proyect-text">Proyecto que realice solo en el cual implemente conocimiento nuevo de lo aprendido en clase y senti una mejora en su elavoracion</p>
-                <a href="" class="visit">Visitar pagina</a>
-            </section>
-        </div>
-        <div class="proyects">
-            <section class="colum portfolio-proyect">
-                <h3 class="proyect-title">Iluminada</h3>
-                <img class="proyect-imagen" src="imagen/escoger_web.jpg" alt="">
-                <p class="proyect-text">Proyecto que realice en grupo fue uno de los mas duros por que lo trabajamos en un repositorio en conjunto.</p>
-                <a href="" class="visit">Visitar pagina</a>
-            </section>
-            <section class="colum portfolio-proyect">
-                <h3 class="proyect-title">Inventario</h3>
-                <img class="proyect-imagen" src="imagen/escoger_web.jpg" alt="">
-                <p class="proyect-text">Proyecto que realize con el profe Edison en JS lo cual me gusto xq pude lograr bastante con conocimiento de lo aprendido en clase me senti bien por la mejora alcanzada</p>
-                <a href="" class="visit">Visitar pagina</a>
-            </section>
-        </div>
-            <a href="#" class="expand">Expand</a>
-        </div><!-- .content-portfolio END -->
-        <div class="content-skill">
-            <div class="colum content-skill-avatar">
-                <h3 class="content-skill-title">Avatar de Kendoll</h3>
+        <div class="skill-content content">
+            <div class="colum skill-content-imagen">
+                <h3 class="skill-content-title title-left">Avatar de Kendoll</h3>
+                <img class="skill-content-avatar"src="imagen/avatar.png">
             </div>
-            <div class="colum content-skill-score">
-                <h3 class="content-skill-title">Conocimiento</h3>
+            <div class="colum skill-content-imagen">
+                <h3 class="skill-content-title">Conocimiento</h3>
+                <img class="skill-content-score" src="imagen/score.png">
             </div>
         </div><!-- .content-skill END -->
-        <div class="content-form">
-            <form action="">
-                <laber class="form-title">Nombre:</laber>
-                <input type="text">
-                <laber class="form-title">Correo:</laber>
-                <input type="text">
-                <laber class="form-title">Comentarios:</laber>
-                <textarea name="coment" cols="30" rows="10"></textarea>
-                <button class="button">Enviar</button>
+        <div class="form-content content">
+            <h3 class="sub-title">Contact</h3>
+            <div class="contact-content">
+            <form action="validacion.php" method="post" class="contact-form" id="form">
+                <p class="clearfix">
+                    <label for="name">Name</label>
+                    <input class="textbox textbox-name" type="text" name="Name" placeholder="Nombre" id="name" /><br>
+                </p>
+
+                <p class="clearfix">
+                    <label for="email">E-mail</label>
+                    <input class="textbox-name textbox-email" type="text" name="Email" placeholder="Email" id="email" /><br>
+                </p>
+                    
+                <p class="clearfix-textarea">
+                    <label for="message">Mensaje</label>
+                    <textarea class="textbox textbox-message" id="message" placeholder="Mensaje"></textarea>
+                </p>
+                <input type="button" value="Enviar" class="button-send-form" id="submit" onclick="send()">
             </form>
+        </div> <!-- /content-contact -->
         </div><!-- .content-form END -->        
         <footer class="footer">
             <section class="footer-section-left">
@@ -122,11 +139,12 @@
                     <p class="tel">+506 8959 5401</p>
                   </div>
                 <section class="footer-section-right">
-                  <div>
-                      <img class="section-right-imagen" src="imagen/logo-github.png" alt="">
-                      <img class="section-right-imagen" src="imagen/logo-linkn-in.png" alt="">
-                      <img class="section-right-imagen" src="imagen/logo-twitter.png" alt="">
-                      <img class="section-right-imagen" src="imagen/logo-facebook.png" alt="">
+                  <div class="footer-section-right-social">
+                    <img class="section-right-icon" url="https://www.facebook.com/daniel.herradorarojas" src="imagen/logo-facebook.png" alt="">
+                    <img class="section-right-icon" src="imagen/logo-twitter.png" alt="">
+                    <img class="section-right-icon git" src="imagen/logo-github.png" alt="">
+                    <img class="section-right-icon" src="imagen/logo-linkn-in.png" href="" alt="">
+                    
                   </div>
                 </section>
         </footer>

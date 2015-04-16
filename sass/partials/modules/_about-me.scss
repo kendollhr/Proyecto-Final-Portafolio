@@ -1,3 +1,7 @@
+//
+// Estilos de la seccion about me
+//
+
 .about{
 	height: 700px;
 	margin-bottom: 70px;
@@ -7,50 +11,57 @@
 .about-content{
 	background: url(../imagen/Bandera-de-Costa-Rica-ondeando.jpeg) no-repeat center center;
 	background-size: 100% 100%;
-		margin-top: 70px;
-	font-size: 16px;
 	color: #fff;
+	margin-top: 7%;
+	font-size: 16px;
 	.about-subcontent{
 		background-color: rgba(0,0,0,0.3);
+		.about-title{
+			margin-top: -3.1%;
+			padding-top: 0.4%;
+			width: 13%;
+		}
 		.about-description{
-			width: 90%;
 			padding-left: 10%;
-			padding-top: 50px;
+			padding-top: 25px;
+			width: 90%;
 		}
 		.content-about-left{
 			.about-life{
-				width: 50%;
 				display: block;
 				margin: 0 auto;
 				margin-top: 20%;
+				width: 50%;
 
 			}
 			float: left;
 			margin-top: -83px;
 		}
 		.content-about-right{
-			.about-section-up{
-				text-align: center;
+			.about-section-header{
 				background-color: $background2;
-	    		height: 140px;
-	    		width: 60%;
+	    		height: 174px;
 	    		margin-top: 61px;
+	    		text-align: center;
+	    		width: 60%;
     		.about-ul-left, .about-ul-right{
 		    	display: inline-block;
 		    	margin: 0 auto;
 				}
 			}
-			.about-section-down, .footer-section-left{
+			.about-section-footer, .footer-section-left{
 			  margin-top: 60px;
 					.logo-tel, .logo-email{
-				  height: 40px;
+				  		height: 40px;
+				  		width: 15%;
 					}
 					.tel, .email{
-				  float: right;
+				  		float: right;
 					}
 					.contact-email, .contact-tel{
-						width: 44%;
 						overflow: hidden;
+						margin-bottom: 3%;
+						width: 34%;
 					}
 					.tel{
 						margin-right: 44px;

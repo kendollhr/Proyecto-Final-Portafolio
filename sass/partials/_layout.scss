@@ -6,82 +6,48 @@
 	background: url(../imagen/diseno-web-slider.jpg) no-repeat center center;
 	background-size: 100% 100%;
 	background-attachment: fixed;
-	position: relative;
 	height: 700px;
-	margin-top: -70px;
+	position: relative;
 	.jumbotron-text, .jumbotron-title {
 		background-color: $background2;
+		border-radius: 19px;
 		color: #fff;
 		position: absolute;
 		max-width: 346px;
 		margin: 0 auto;
 		margin-left: 37%;
-		border-radius: 19px;
 		width: 25%;
-		padding-top: 0.6%;
-		padding-left: 1%;
+		padding: 0.6% 0 0 1%;
 
 	}
 }
-
+.content{
+	margin-top: 7%;
+}
 
 .colum{
 	width: 48%;
 	display: inline-block;
 }
 
-.content-skill {
-	.content-skill-avatar{
-		background: url(../imagen/avatar.png) no-repeat center center;
-		background-size: 50% 70%;
-		height: 700px;
-	}
-	.content-skill-score{
-		background: url(../imagen/score.png) no-repeat center center;
-		background-size: 70% 70%;
-		height: 700px;
-	}
-}
-
-.portfolio-proyect{
-	background-color: #b3b7ba;
-	max-width: 1024px;
-	margin: 0 auto;
-	padding: 1px;
-	.portfolio-proyect{
-	display: inline-block;
-	margin: 0 auto;
-	}
-	.proyect-imagen{
-		width: 60%;
-		margin-left: 108px;
-	}
-	.proyect-text{
-		width: 60%;
-		margin-left: 108px;
-	}
-	.proyect-title{
-		text-align: center;
-		font-size: 18px;
-		color: $texto1;
-		margin-top: 20px;
-	}
-	.visit{
-		float: right;
-		margin-right: 100px;
-	}
-}
-
-
 .header-content {
   height: 450px;
 }
 
-footer {
-  padding: 150px 0 60px 0;
-  background-color: $background1;
-  .footer-nav {
-    @extend %container;
-  }
 
+// #Estilos para el skill
+
+.skill-content{
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-top: 10%;
+	.skill-content-imagen{
+		width: 49%;
+		.skill-content-avatar{
+			width: 62%
+		}
+		.skill-content-score{
+			width: 100%
+		}
+	}
 }

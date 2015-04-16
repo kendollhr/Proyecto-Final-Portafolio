@@ -4,6 +4,8 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,600|Pacifico);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -356,16 +358,6 @@ td,
 th {
   padding: 0; }
 
-footer .footer-nav {
-  max-width: 1400px;
-  margin: 0 auto;
-  overflow: hidden; }
-
-.main-nav li:first-child a {
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden; }
-
 html {
   box-sizing: border-box;
   background-color: #000;
@@ -379,9 +371,6 @@ html {
 body {
   margin: 0; }
 
-a {
-  text-decoration: none; }
-
 ul, ol {
   margin: 0; }
 
@@ -392,162 +381,107 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px; }
 
 p, li {
-  font-family: Times, "Times New Roman", serif;
+  font-family: "Josefin Sans", sans-serif;
   margin-bottom: 0.3em;
-  font-size: 13px;
-  font-size: 1.3rem;
+  font-size: 18px;
+  font-size: 1.8rem;
   color: #fff; }
 
 a {
-  color: #000;
+  color: #fff;
+  font-size: 14px;
+  font-size: 1.4rem;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fff; }
 
 .jumbotron {
   background: url(../imagen/diseno-web-slider.jpg) no-repeat center center;
   background-size: 100% 100%;
   background-attachment: fixed;
-  position: relative;
   height: 700px;
-  margin-top: -70px; }
+  position: relative; }
   .jumbotron .jumbotron-text, .jumbotron .jumbotron-title {
     background-color: rgba(177, 181, 184, 0.9);
+    border-radius: 19px;
     color: #fff;
     position: absolute;
     max-width: 346px;
     margin: 0 auto;
     margin-left: 37%;
-    border-radius: 19px;
     width: 25%;
-    padding-top: 0.6%;
-    padding-left: 1%; }
+    padding: 0.6% 0 0 1%; }
+
+.content {
+  margin-top: 7%; }
 
 .colum {
   width: 48%;
   display: inline-block; }
 
-.content-skill .content-skill-avatar {
-  background: url(../imagen/avatar.png) no-repeat center center;
-  background-size: 50% 70%;
-  height: 700px; }
-.content-skill .content-skill-score {
-  background: url(../imagen/score.png) no-repeat center center;
-  background-size: 70% 70%;
-  height: 700px; }
-
-.portfolio-proyect {
-  background-color: #b3b7ba;
-  max-width: 1024px;
-  margin: 0 auto;
-  padding: 1px; }
-  .portfolio-proyect .portfolio-proyect {
-    display: inline-block;
-    margin: 0 auto; }
-  .portfolio-proyect .proyect-imagen {
-    width: 60%;
-    margin-left: 108px; }
-  .portfolio-proyect .proyect-text {
-    width: 60%;
-    margin-left: 108px; }
-  .portfolio-proyect .proyect-title {
-    text-align: center;
-    font-size: 18px;
-    color: #fff;
-    margin-top: 20px; }
-  .portfolio-proyect .visit {
-    float: right;
-    margin-right: 100px; }
-
 .header-content {
   height: 450px; }
 
-footer {
-  padding: 150px 0 60px 0;
-  background-color: #2b2b2b; }
+.skill-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 10%; }
+  .skill-content .skill-content-imagen {
+    width: 49%; }
+    .skill-content .skill-content-imagen .skill-content-avatar {
+      width: 62%; }
+    .skill-content .skill-content-imagen .skill-content-score {
+      width: 100%; }
 
 .nav-header {
-  position: absolute;
-  z-index: 2000;
-  left: 37%;
-  padding-top: 19px; }
+  background-color: rgba(177, 181, 184, 0.9);
+  height: 60px;
+  overflow: hidden;
+  text-align: center;
+  width: 100%; }
+  .nav-header .nav-header-list {
+    font-family: "Josefin Sans", sans-serif;
+    padding-top: 1.5%; }
 
 nav ul {
   padding: 0; }
 nav li {
-  list-style-type: none;
   display: inline-block;
+  list-style-type: none;
   margin: 0; }
-nav .nav-links {
-  margin: 0px 10px;
-  font-size: 18px; }
+nav .nav-items {
+  font-size: 18px;
+  margin: 0px 10px; }
 
-.nav-links-a {
-  color: #000; }
-
-.footer-section-right {
-  background-color: rgba(177, 181, 184, 0.9);
-  width: 49%;
+.nav-items-contact {
   position: absolute;
-  right: 1px;
-  height: 84px;
-  margin-top: -84px;
-  margin-right: 5px; }
+  padding-top: 1%;
+  right: 15%;
+  top: 1%; }
 
-.main-nav {
-  background-color: #2b2b2b; }
-  .main-nav li {
-    vertical-align: top; }
-  .main-nav a {
-    color: #fff;
-    display: block;
-    height: 100px;
-    padding: 0 30px;
-    line-height: 100px;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    font-size: 2rem; }
-  .main-nav li:first-child a {
-    width: 150px;
-    background: #def1fa url(../img/logo.png) no-repeat center; }
-
-.footer-nav {
-  text-align: center; }
-  .footer-nav li {
-    padding: 0 5px; }
-  .footer-nav a {
-    display: block;
-    border-bottom: 1px #fff solid;
-    color: #fff;
-    padding: 5px;
-    font-family: Helvetica, Arial, sans-serif; }
-
-.header-nav {
+.header-global {
   overflow: hidden; }
 
 .logo {
   background: url(../imagen/DSC_0232.JPG) no-repeat center center;
   border-radius: 50px;
   float: left;
-  width: 16%;
   height: 332px;
-  position: absolute;
-  z-index: 2000;
   left: 17%;
-  margin-top: 6%; }
-
-header {
-  background-color: #1b8abe; }
+  margin-top: 11%;
+  position: absolute;
+  width: 16%;
+  z-index: 2000; }
 
 .header-content {
   background: url(../img/banner-head.jpg) no-repeat;
-  text-align: center;
-  color: #fff; }
+  color: #fff;
+  text-align: center; }
   .header-content h1, .header-content h2, .header-content h3 {
     color: #fff; }
   .header-content h2 {
@@ -573,8 +507,41 @@ header {
     border: 1px solid blue;
     border-radius: 3px;
     color: red;
-    text-transform: none;
-    font-family: Helvetica, Arial, sans-serif; }
+    text-transform: none; }
+
+.portfolio-proyect {
+  background-color: #2b2b2b;
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-top: 7%;
+  padding: 1px; }
+  .portfolio-proyect .portfolio-proyect {
+    display: inline-block;
+    margin: 0 auto; }
+  .portfolio-proyect .proyect-imagen {
+    margin-left: 108px;
+    width: 60%; }
+  .portfolio-proyect .proyect-title {
+    margin-top: -4.3%;
+    padding: 1%;
+    width: 18%; }
+  .portfolio-proyect .proyect-text {
+    margin-left: 108px;
+    width: 60%; }
+  .portfolio-proyect .proyect-subtitle {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center; }
+  .portfolio-proyect .visit {
+    background-color: rgba(177, 181, 184, 0.9);
+    color: blue;
+    text-align: center;
+    float: right;
+    height: 21px;
+    margin-right: 100px;
+    padding-top: 2px;
+    width: 20%; }
 
 .about {
   height: 700px;
@@ -584,103 +551,188 @@ header {
 .about-content {
   background: url(../imagen/Bandera-de-Costa-Rica-ondeando.jpeg) no-repeat center center;
   background-size: 100% 100%;
-  margin-top: 70px;
-  font-size: 16px;
-  color: #fff; }
+  color: #fff;
+  margin-top: 7%;
+  font-size: 16px; }
   .about-content .about-subcontent {
     background-color: rgba(0, 0, 0, 0.3); }
+    .about-content .about-subcontent .about-title {
+      margin-top: -3.1%;
+      padding-top: 0.4%;
+      width: 13%; }
     .about-content .about-subcontent .about-description {
-      width: 90%;
       padding-left: 10%;
-      padding-top: 50px; }
+      padding-top: 25px;
+      width: 90%; }
     .about-content .about-subcontent .content-about-left {
       float: left;
       margin-top: -83px; }
       .about-content .about-subcontent .content-about-left .about-life {
-        width: 50%;
         display: block;
         margin: 0 auto;
-        margin-top: 20%; }
-    .about-content .about-subcontent .content-about-right .about-section-up {
-      text-align: center;
+        margin-top: 20%;
+        width: 50%; }
+    .about-content .about-subcontent .content-about-right .about-section-header {
       background-color: rgba(177, 181, 184, 0.9);
-      height: 140px;
-      width: 60%;
-      margin-top: 61px; }
-      .about-content .about-subcontent .content-about-right .about-section-up .about-ul-left, .about-content .about-subcontent .content-about-right .about-section-up .about-ul-right {
+      height: 174px;
+      margin-top: 61px;
+      text-align: center;
+      width: 60%; }
+      .about-content .about-subcontent .content-about-right .about-section-header .about-ul-left, .about-content .about-subcontent .content-about-right .about-section-header .about-ul-right {
         display: inline-block;
         margin: 0 auto; }
-    .about-content .about-subcontent .content-about-right .about-section-down, .about-content .about-subcontent .content-about-right .footer-section-left {
+    .about-content .about-subcontent .content-about-right .about-section-footer, .about-content .about-subcontent .content-about-right .footer-section-left {
       margin-top: 60px; }
-      .about-content .about-subcontent .content-about-right .about-section-down .logo-tel, .about-content .about-subcontent .content-about-right .about-section-down .logo-email, .about-content .about-subcontent .content-about-right .footer-section-left .logo-tel, .about-content .about-subcontent .content-about-right .footer-section-left .logo-email {
-        height: 40px; }
-      .about-content .about-subcontent .content-about-right .about-section-down .tel, .about-content .about-subcontent .content-about-right .about-section-down .email, .about-content .about-subcontent .content-about-right .footer-section-left .tel, .about-content .about-subcontent .content-about-right .footer-section-left .email {
+      .about-content .about-subcontent .content-about-right .about-section-footer .logo-tel, .about-content .about-subcontent .content-about-right .about-section-footer .logo-email, .about-content .about-subcontent .content-about-right .footer-section-left .logo-tel, .about-content .about-subcontent .content-about-right .footer-section-left .logo-email {
+        height: 40px;
+        width: 15%; }
+      .about-content .about-subcontent .content-about-right .about-section-footer .tel, .about-content .about-subcontent .content-about-right .about-section-footer .email, .about-content .about-subcontent .content-about-right .footer-section-left .tel, .about-content .about-subcontent .content-about-right .footer-section-left .email {
         float: right; }
-      .about-content .about-subcontent .content-about-right .about-section-down .contact-email, .about-content .about-subcontent .content-about-right .about-section-down .contact-tel, .about-content .about-subcontent .content-about-right .footer-section-left .contact-email, .about-content .about-subcontent .content-about-right .footer-section-left .contact-tel {
-        width: 44%;
-        overflow: hidden; }
-      .about-content .about-subcontent .content-about-right .about-section-down .tel, .about-content .about-subcontent .content-about-right .footer-section-left .tel {
+      .about-content .about-subcontent .content-about-right .about-section-footer .contact-email, .about-content .about-subcontent .content-about-right .about-section-footer .contact-tel, .about-content .about-subcontent .content-about-right .footer-section-left .contact-email, .about-content .about-subcontent .content-about-right .footer-section-left .contact-tel {
+        overflow: hidden;
+        margin-bottom: 3%;
+        width: 34%; }
+      .about-content .about-subcontent .content-about-right .about-section-footer .tel, .about-content .about-subcontent .content-about-right .footer-section-left .tel {
         margin-right: 44px; }
 
+.form-content {
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-top: 10%; }
+  .form-content .clearfix {
+    margin: 0;
+    width: 280px;
+    display: inline-block; }
+  .form-content .clearfix-textarea {
+    margin: 0;
+    width: 98%;
+    display: inline-block; }
+  .form-content .contact-form {
+    width: 595px;
+    height: 300px;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 76px; }
+  .form-content label {
+    display: none; }
+  .form-content .textbox-name {
+    margin: 10px;
+    background-color: #eee;
+    border: none;
+    width: 100%;
+    border-radius: 0;
+    font-size: 18px;
+    font-size: 1.8rem;
+    color: #999;
+    padding: 16px;
+    box-sizing: border-box; }
+  .form-content .textbox-email {
+    margin-left: 30px; }
+  .form-content .textbox-message {
+    margin: 5px 10px;
+    background-color: #eee;
+    border: none;
+    width: 100%;
+    min-height: 150px;
+    border-radius: 0;
+    font-size: 18px;
+    font-size: 1.8rem;
+    color: #999;
+    padding: 16px;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif; }
+
 .footer {
-  background-color: rgba(177, 181, 184, 0.9); }
+  background-color: #b1b5b8;
+  height: 250px;
+  margin-top: 10%; }
   .footer .footer-section-left {
-    width: 48%;
-    margin-top: 60px; }
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 18%;
+    width: 48%; }
     .footer .footer-section-left .logo-tel, .footer .footer-section-left .logo-email {
-      height: 40px; }
+      height: 40px;
+      width: 15%; }
     .footer .footer-section-left .tel, .footer .footer-section-left .email {
       float: right; }
     .footer .footer-section-left .contact-email, .footer .footer-section-left .contact-tel {
-      width: 44%;
-      overflow: hidden; }
+      overflow: hidden;
+      margin-left: 6%;
+      margin-bottom: 3%;
+      width: 34%; }
     .footer .footer-section-left .tel {
       margin-right: 44px; }
 
 .footer-section-right {
-  background-color: rgba(177, 181, 184, 0.9);
-  width: 49%;
-  position: absolute;
-  right: 1px;
   height: 84px;
   margin-top: -84px;
-  margin-right: 5px; }
+  position: absolute;
+  right: 3%;
+  width: 49%; }
+  .footer-section-right .footer-section-right-social .section-right-icon {
+    width: 10%; }
+  .footer-section-right .footer-section-right-social .git {
+    width: 8%;
+    margin-top: 1%; }
+
+.button-send-form {
+  color: #0C00FF;
+  font-family: inherit;
+  display: block;
+  float: right;
+  cursor: pointer;
+  font-size: 20px;
+  font-size: 2rem;
+  font-weight: 500;
+  border-radius: 3px;
+  padding: 12px 34px;
+  background: #fff;
+  border: solid 2px #0C00FF;
+  position: relative; }
 
 .about-section-tittle {
-  background-color: #b1b5b8;
+  background-color: #2b2b2b;
   width: 31%;
   margin: 0 auto;
   margin-bottom: 15px;
-  text-align: center; }
+  text-align: center;
+  padding-top: 2%;
+  height: 35px; }
 
 .title-center {
-  font-family: "Roboto:700";
+  font-family: "Roboto", sans-serif;
   font-size: 26px;
   color: #fff;
   text-align: center;
   background-color: #b1b5b8;
-  width: 13%;
   margin: 0 auto;
-  margin-top: -3.1%;
-  height: 43px;
-  padding-top: 0.4%; }
+  height: 43px; }
+
+.sub-title {
+  font-size: 18px;
+  font-size: 1.8rem; }
 
 .jumbotron-title {
   height: 106px;
   bottom: 390px; }
 
 .title-big {
-  font-size: 40px; }
+  font-size: 40px;
+  font-size: 4rem; }
 
 .jumbotron-text {
   font-size: 30px;
   bottom: 285px;
   height: 87px; }
 
-.content-skill-title {
+.skill-content-title {
   text-align: center;
   font-size: 18px;
-  color: #000;
-  margin-top: 20px; }
+  color: #fff;
+  margin-bottom: 72px; }
+
+.title-left {
+  margin-right: 35%; }
 
 /*# sourceMappingURL=style.css.map */

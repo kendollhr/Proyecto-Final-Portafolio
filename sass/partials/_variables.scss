@@ -1,18 +1,26 @@
-// 
+/// 
 // Variables
 //
 
 // Tipografía
-$sans: Helvetica, Arial, sans-serif;
-$serif: Times, "Times New Roman", serif;
+
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,600|Pacifico);
+// Font 
+$title-cursive: 'Pacifico', cursive;
+$text-sans: 'Josefin Sans', sans-serif;
+$text-roboto: 'Roboto', sans-serif;
+ 
+
 
 // Colores
 $texto1: #fff; //Blanco
 $texto2: #000; // Negro
-$texto3: #6e7c89; // Gris verdoso
-$destacado1: #1b8abe;  // Turquesa
+$texto3: #0C00FF;
 $background1: #2b2b2b; // Gris oscuro
 $background2: rgba(177,181,184,0.9); // Gris claro
+$background3: rgb(177,181,184); // Gris claro
 
 
 // Layout

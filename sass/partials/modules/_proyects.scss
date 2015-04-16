@@ -1,0 +1,44 @@
+//
+// Estilos seccion portafolio
+//
+
+.portfolio-proyect{
+	background-color: $background1;
+	max-width: 1024px;
+	margin: 0 auto;
+	margin-top: 7%;
+	padding: 1px;
+	.portfolio-proyect{
+		display: inline-block;
+		margin: 0 auto;
+	}
+	.proyect-imagen{
+		margin-left: 108px;
+		width: 60%;
+	}
+	.proyect-title{
+		margin-top: -4.3%;
+  	padding: 1%;
+  	width: 18%;
+	}
+	.proyect-text{
+		margin-left: 108px;
+		width: 60%;
+	}
+	.proyect-subtitle{
+		color: $texto1;
+		font-size: 18px;
+		margin-top: 20px;
+		text-align: center;
+	}
+	.visit{
+		background-color: $background2;
+		color: blue;
+		text-align: center;
+		float: right;
+	  height: 21px;
+	  margin-right: 100px;
+	  padding-top: 2px;
+	  width: 20%;
+	}
+}

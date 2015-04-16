@@ -2,7 +2,7 @@
 // Estilos del header
 //
 
-.header-nav{
+.header-global{
   overflow: hidden;
 }
 
@@ -10,22 +10,19 @@
   background: url(../imagen/DSC_0232.JPG) no-repeat center center;
   border-radius: 50px;
   float: left;
-  width: 16%;
   height: 332px;
-  position: absolute;
-  z-index: 2000;
   left: 17%;
-  margin-top: 6%;
+  margin-top: 11%;
+  position: absolute;
+  width: 16%;
+  z-index: 2000;
 }
 
-header {
-  background-color: $destacado1;
-}
 
 .header-content {
   background: url(../img/banner-head.jpg) no-repeat;
-  text-align: center;
   color: #fff;
+  text-align: center;
   h1, h2, h3 {
     color: #fff;
   }

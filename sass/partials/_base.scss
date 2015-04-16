@@ -18,10 +18,6 @@ body {
   margin: 0;
 }
 
-a{
-  text-decoration: none;
-}
-
 
 ul, ol {
   margin: 0;
@@ -39,14 +35,15 @@ h1, h2, h3, h4, h5, h6 {
 // Patrones
 
 p, li {
-  font-family: $serif;
+  font-family: $text-sans;
   margin-bottom: 0.3em;
-  @include font-size(13);
+  @include font-size(18);
   color: $texto1;
 }
 
 a {
-  color: $texto2;
+  color: $texto1;
+  @include font-size(14); 
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -55,7 +52,7 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  font-family: $sans;
+  font-family: $text-roboto;
   color: $texto1;
 }
 

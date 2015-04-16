@@ -1,22 +1,29 @@
+//
+// Estilos tipografia y estilos de los titulos
+//
+
 .about-section-tittle{
-  background-color: #b1b5b8;
+  background-color: $background1;
   width: 31%;
   margin: 0 auto;
   margin-bottom: 15px;
   text-align: center;
+  padding-top: 2%;
+  height: 35px;
 }
 
 .title-center{
-  font-family: "Roboto:700";
+  font-family: $text-roboto;
   font-size: 26px;
   color: #fff;
   text-align: center;
   background-color: #b1b5b8;
-  width: 13%;
   margin: 0 auto;
-  margin-top: -3.1%;
   height: 43px;
-  padding-top: 0.4%;
+}
+
+.sub-title{
+  @include font-size(18)
 }
 
 .jumbotron-title{
@@ -25,7 +32,7 @@
 }
 
 .title-big{
-  font-size: 40px;
+  @include font-size(40)
 }
 
 .jumbotron-text{
@@ -34,9 +41,13 @@
     height: 87px;
 }
 
-.content-skill-title{
+.skill-content-title{
   text-align: center;
   font-size: 18px;
-  color: $texto2;
-  margin-top: 20px;
+  color: $texto1;
+  margin-bottom: 72px;
+}
+
+.title-left{
+  margin-right: 35%;
 }

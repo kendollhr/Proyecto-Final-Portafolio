@@ -4,11 +4,16 @@
 
 // Estilos generales
 
-.nav-header {
-  position: absolute;
-  z-index: 2000;
-  left: 37%;
-  padding-top: 19px;
+.nav-header{
+  background-color: $background2;
+  height: 60px;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  .nav-header-list {
+    font-family: $text-sans;
+    padding-top: 1.5%;
+  }
 }
 
 nav {
@@ -16,71 +21,26 @@ nav {
     padding: 0;
   }
   li {
-
-    list-style-type: none;
     display: inline-block;
+    list-style-type: none;
     margin: 0;
   }
 
-  .nav-links {
-    margin: 0px 10px;
+  .nav-items {
     font-size: 18px;
+    margin: 0px 10px;
   }
 }
 
-.nav-links-a{
-  color: #000;
-}
-
-// Navegación principal
-
-
-
-// Navegación footer
-.footer-section-right {
-  background-color: $background2;
-  width: 49%;
+.nav-items-contact{
   position: absolute;
-  right: 1px;
-  height: 84px;
-  margin-top: -84px;
-  margin-right: 5px;
+  padding-top: 1%;
+  right: 15%;
+  top: 1%;
 }
 
 // Navegación principal
-.main-nav {
-  background-color: $background1;
-  li {
-    vertical-align: top;
-  }
-  a {
-    color: #fff;
-    display: block;
-    height: 100px;
-    padding: 0 30px;
-    line-height: 100px;
-    font-family: $sans;
-    @include font-size(20);
-  }
-  // Enlace a Inicio
-  li:first-child a {
-    width: 150px;
-    background: lighten($destacado1, 50%) url(../img/logo.png) no-repeat center;
-    @extend %text-hidden;
-  }
-}
+
+
 
 // Navegación footer
-.footer-nav {
-  text-align: center;
-  li {
-    padding: 0 5px;
-  }
-  a {
-    display: block;
-    border-bottom: 1px #fff solid;
-    color: #fff;
-    padding: 5px;
-    font-family: $sans;
-  }
-}

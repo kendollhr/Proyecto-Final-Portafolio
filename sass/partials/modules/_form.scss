@@ -1,0 +1,61 @@
+// #Estilos para el form
+.form-content{
+	max-width: 1024px;
+	margin:0 auto;
+	margin-top: 10%;
+		.clearfix {
+			margin: 0;
+			width: 280px;
+			display: inline-block;
+		}
+
+		.clearfix-textarea {
+			margin: 0;
+			width: 98%;
+			display: inline-block;
+		}
+
+		.contact-form {
+			width: 595px;
+			height: 300px;
+			vertical-align: top;
+			display: inline-block;
+			margin-left: 76px;
+
+		}
+
+		label {
+			display: none;
+		}
+
+		.textbox-name {
+			margin: 10px;
+			background-color: #eee;
+			border: none;
+			width: 100%;
+			border-radius: 0;
+			@include font-size(18);
+			color: #999;
+			padding: 16px;
+			box-sizing: border-box;
+		}
+
+		.textbox-email { // input email
+			margin-left: 30px;
+		}
+
+		.textbox-message { // textarea
+			margin: 5px 10px;
+			background-color: #eee;
+			border: none;
+			width: 100%;
+			min-height: 150px;
+			border-radius: 0;
+			@include font-size(18);
+			color: #999;
+			padding: 16px;
+			box-sizing: border-box;
+			font-family: $text-sans;
+		}
+
+}
