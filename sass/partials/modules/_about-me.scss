@@ -1,21 +1,30 @@
-.content-about{
+.about{
+	height: 700px;
+	margin-bottom: 70px;
+	padding: 1px;
+}
+
+.about-content{
 	background: url(../imagen/Bandera-de-Costa-Rica-ondeando.jpeg) no-repeat center center;
 	background-size: 100% 100%;
+		margin-top: 70px;
 	font-size: 16px;
 	color: #fff;
-	height: 800px;
-	overflow: hidden;
-	margin-top: 70px;
-	margin-bottom: 70px;
+	.about-subcontent{
+		background-color: rgba(0,0,0,0.3);
 		.about-description{
-			width: 70%;
-			padding-left: 146px;
-			margin-top: 65px;
+			width: 90%;
+			padding-left: 10%;
+			padding-top: 50px;
 		}
 		.content-about-left{
-			background: url(../imagen/vida.jpg) no-repeat center center;
-			background-size: 50% 70%;
-			height: 700px;
+			.about-life{
+				width: 50%;
+				display: block;
+				margin: 0 auto;
+				margin-top: 20%;
+
+			}
 			float: left;
 			margin-top: -83px;
 		}
@@ -48,5 +57,5 @@
 					}
 			}
 		}
-
+	}
 }

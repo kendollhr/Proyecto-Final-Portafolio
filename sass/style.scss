@@ -7,6 +7,7 @@
 //
 
 // Parciales base
+@import "partials/normalize";
 @import "partials/variables";
 @import "partials/mixins";
 @import "partials/placeholders";
@@ -18,4 +19,5 @@
 @import "partials/modules/header";
 @import "partials/modules/about-me";
 @import "partials/modules/footer";
+@import "partials/modules/icons";
 @import "partials/modules/title";

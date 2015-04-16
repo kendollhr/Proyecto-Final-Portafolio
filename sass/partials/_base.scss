@@ -4,9 +4,10 @@
 
 html {
   box-sizing: border-box;
+  background-color: #000;
   font-size: 62.5%;
-  max-width: 1024px;
-
+  max-width: $max-width;
+  margin: 0 auto;
 }
 
 * {
@@ -40,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 p, li {
   font-family: $serif;
   margin-bottom: 0.3em;
-  @include font-size(14);
+  @include font-size(13);
   color: $texto1;
 }
 
@@ -60,11 +61,3 @@ h1, h2, h3, h4, h5, h6 {
 
 // Patrones
 
-.section-header {
-  width: 100%;
-  border-bottom: 1px solid #000;
-  color: #000;
-  text-transform: uppercase;
-  padding-bottom: 0.5em;
-  margin-bottom: 40px;
-}
