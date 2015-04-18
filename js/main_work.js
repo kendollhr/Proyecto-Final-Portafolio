@@ -24,25 +24,26 @@ $(document).ready(function(){
 	}
 });
 
+//Firmsware
 
 var imgNow = 0;
-var worksGallery = [
+var proyectsGallery = [
 	"imagen/iluminada.png",
 	"imagen/elblog.png",
 	"imagen/elcaminito.png",
 	"imagen/drupalcamp.png"
 ]
 
-var totalImgs =  worksGallery.length - 1;
+var Imgs =  proyectsGallery.length - 1;
 
-function next() {
+function proyectNext() {
 	imgNow++;
-	if(imgNow > totalImgs) imgNow = 0
-	document.getElementById("gallery").src =  worksGallery[imgNow];
+	if(imgNow > Imgs) imgNow = 0
+	document.getElementById("gallery").src =  proyectsGallery[imgNow];
 }
 
-function previous() {
+function proyectPrevious() {
 	imgNow--;
-	if(imgNow < 0) imgNow = totalImgs;
-	document.getElementById("gallery").src =  worksGallery[imgNow];
+	if(imgNow < 0) imgNow = Imgs;
+	document.getElementById("gallery").src =  proyectsGallery[imgNow];
 }
