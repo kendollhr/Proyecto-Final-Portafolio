@@ -1,0 +1,36 @@
+{
+	"nombre": "Proyectos",
+	"works":[
+	
+	{
+		"img":"imagen/drupalcamp.png",
+		"nombre":"Drupal Camp",
+		"descripcion": "Proyecto que realice con ayuda del profe Albeto el cual me enseño nuevas tecnicas y material nuevo para hace un mejor trabajo.",
+		"descripcion2": "Proyecto que realice con ayuda del profe Albeto el cual me enseño nuevas tecnicas y material nuevo para hace un mejor trabajo. Quisque convallis consequat lacus eget tempus. Mauris feugiat augue non massa imperdiet viverra. Duis sollicitudin metus quis maximus ultricies. In facilisis tincidunt leo, eget porttitor odio varius in. In eu sem vel neque vestibulum suscipit. Vivamus non nibh vitae sapien posuere commodo a ac mauris. Etiam consectetur, tellus efficitur egestas venenatis, nibh ipsum dignissim lacus, non consequat enim erat in urna. Quisque quis imperdiet ex. Nulla tincidunt congue urna ut eleifend. Sed lacus ipsum, egestas sed augue ac, commodo tristique neque. Donec elementum sagittis convallis. Vestibulum non viverra est, nec efficitur neque. "
+	},
+
+	{
+		"img": "imagen/elcaminito.png",
+		"nombre": "El Caminito",
+		"descripcion": "Proyecto que realice solo en el cual implemente conocimiento nuevo de lo aprendido en clase y senti una mejora en su elavoracion",
+		"descripcion2": "Proyecto que realice solo en el cual implemente conocimiento nuevo de lo aprendido en clase y senti una mejora en su elavoracion. Quisque convallis consequat lacus eget tempus. Mauris feugiat augue non massa imperdiet viverra. Duis sollicitudin metus quis maximus ultricies. In facilisis tincidunt leo, eget porttitor odio varius in. In eu sem vel neque vestibulum suscipit. Vivamus non nibh vitae sapien posuere commodo a ac mauris. Etiam consectetur, tellus efficitur egestas venenatis, nibh ipsum dignissim lacus, non consequat enim erat in urna. Quisque quis imperdiet ex. Nulla tincidunt congue urna ut eleifend. Sed lacus ipsum, egestas sed augue ac, commodo tristique neque. Donec elementum sagittis convallis. Vestibulum non viverra est, nec efficitur neque."
+	},
+
+	{
+		"img": "imagen/iluminada.png",
+		"nombre": "La Iluminada",
+		"descripcion": "Proyecto que realice en grupo fue uno de los mas duros por que lo trabajamos en un repositorio en conjunto",
+		"descripcion2": "Proyecto que realice en grupo fue uno de los mas duros por que lo trabajamos en un repositorio en conjunto.  Quisque convallis consequat lacus eget tempus. Mauris feugiat augue non massa imperdiet viverra. Duis sollicitudin metus quis maximus ultricies. In facilisis tincidunt leo, eget porttitor odio varius in. In eu sem vel neque vestibulum suscipit. Vivamus non nibh vitae sapien posuere commodo a ac mauris. Etiam consectetur, tellus efficitur egestas venenatis, nibh ipsum dignissim lacus, non consequat enim erat in urna. Quisque quis imperdiet ex. Nulla tincidunt congue urna ut eleifend. Sed lacus ipsum, egestas sed augue ac, commodo tristique neque. Donec elementum sagittis convallis. Vestibulum non viverra est, nec efficitur neque."
+	},
+
+	{
+		"img":"imagen/elblog.png",
+		"nombre": "El Blog",
+		"descripcion": "Proyecto que realize con el profe Edison en JS pude lograr bastante con conocimiento y la mejora alcanzada  ",
+		"descripcion2": "Proyecto que realize con el profe Edison en JS pude lograr bastante con conocimiento y la mejora alcanzada. Quisque convallis consequat lacus eget tempus. Mauris feugiat augue non massa imperdiet viverra. Duis sollicitudin metus quis maximus ultricies. In facilisis tincidunt leo, eget porttitor odio varius in. In eu sem vel neque vestibulum suscipit. Vivamus non nibh vitae sapien posuere commodo a ac mauris. Etiam consectetur, tellus efficitur egestas venenatis, nibh ipsum dignissim lacus, non consequat enim erat in urna. Quisque quis imperdiet ex. Nulla tincidunt congue urna ut eleifend. Sed lacus ipsum, egestas sed augue ac, commodo tristique neque. Donec elementum sagittis convallis. Vestibulum non viverra est, nec efficitur neque.  "
+	}
+
+
+	]
+
+}

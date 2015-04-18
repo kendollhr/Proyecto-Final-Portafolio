@@ -514,10 +514,16 @@ nav .nav-items {
   max-width: 1024px;
   margin: 0 auto;
   margin-top: 7%;
-  padding: 1px; }
+  padding: 1px;
+  overflow: hidden; }
   .portfolio-proyect .portfolio-proyect {
     display: inline-block;
     margin: 0 auto; }
+  .portfolio-proyect .portfolio-work {
+    display: inline-block;
+    margin: 0 auto;
+    width: 500px;
+    margin: 40px 0 25px 0; }
   .portfolio-proyect .proyect-imagen {
     margin-left: 108px;
     width: 60%; }
@@ -540,8 +546,29 @@ nav .nav-items {
     float: right;
     height: 21px;
     margin-right: 100px;
+    margin-top: 15px;
     padding-top: 2px;
     width: 20%; }
+
+.overlay {
+  background: rgba(0, 0, 0, 0.8);
+  display: table;
+  height: 30px;
+  margin: 0 auto;
+  opacity: 0;
+  text-align: center;
+  transition: all 0.5s;
+  width: 280px; }
+
+.portfolio-work:hover .overlay {
+  opacity: 1; }
+
+.see-work {
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 14px;
+  font-size: 1.4rem; }
 
 .about {
   height: 700px;
@@ -675,6 +702,39 @@ nav .nav-items {
   .footer-section-right .footer-section-right-social .git {
     width: 8%;
     margin-top: 1%; }
+
+.work-content p {
+  margin-bottom: 20px; }
+
+.work-content {
+  margin: 0 auto;
+  width: 755px; }
+
+.work-image {
+  text-align: center; }
+
+.work-image img {
+  height: 480px;
+  margin-bottom: 50px;
+  width: 640px; }
+
+.works-nav a {
+  color: #fff;
+  text-decoration: none; }
+  .works-nav a:hover {
+    border-radius: 3px solid #fff; }
+
+.works-nav {
+  margin: 50px 0 100px 90px;
+  text-align: center;
+  border-radius: 3px solid #fff; }
+
+.works-nav a:nth-child(2) {
+  padding: 0 150px; }
+
+.proyect-imagen-details {
+  width: 100%;
+  margin: 100px 0 30px 0; }
 
 .button-send-form {
   color: #0C00FF;

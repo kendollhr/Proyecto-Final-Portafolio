@@ -8,9 +8,16 @@
 	margin: 0 auto;
 	margin-top: 7%;
 	padding: 1px;
+	overflow: hidden;
 	.portfolio-proyect{
 		display: inline-block;
 		margin: 0 auto;
+	}
+	.portfolio-work{
+		display: inline-block;
+		margin: 0 auto;
+		width: 500px;
+		margin: 40px 0 25px 0; 
 	}
 	.proyect-imagen{
 		margin-left: 108px;
@@ -18,8 +25,8 @@
 	}
 	.proyect-title{
 		margin-top: -4.3%;
-  	padding: 1%;
-  	width: 18%;
+  		padding: 1%;
+  		width: 18%;
 	}
 	.proyect-text{
 		margin-left: 108px;
@@ -36,9 +43,34 @@
 		color: blue;
 		text-align: center;
 		float: right;
-	  height: 21px;
-	  margin-right: 100px;
-	  padding-top: 2px;
-	  width: 20%;
+	  	height: 21px;
+	  	margin-right: 100px;
+	  	margin-top: 15px;
+	  	padding-top: 2px;
+	  	width: 20%;
 	}
+}
+
+//Overlay que se activa haciendo hover a la img
+.overlay {
+	background: rgba(0, 0, 0, .8);
+	display: table;
+	height: 30px;
+	margin: 0 auto;
+	opacity: 0;
+	text-align: center;
+	transition: all 0.5s;
+	width: 280px;
+}
+
+.portfolio-work:hover .overlay {
+	opacity: 1;
+}
+
+//Texto que aparece al hacerle hover a la img
+.see-work {
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+	@include font-size(14);
 }

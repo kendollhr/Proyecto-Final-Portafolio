@@ -4,20 +4,19 @@
         <title>Portafolio</title>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
     </head>
     <body>
       <header class="header-global">
 				<a class="logo" href="index.html"></a>
 				<nav class="nav-header">
                     <ul class="nav-header-list">
-    					<li href="#" class="item nav-items">Inicio</li>
-                        <li href="#" class="item nav-items">Portafolio</li>
-    					<li href="#l" class="item nav-items">Acerca de mi</li>
-    					<li href="#" class="item nav-items">Habilidades</li>
+                        <li><a href="#home" class="item nav-items">Inicio</a></li>
+                        <li><a href="#portfolio" class="item nav-items">Portafolio</a></li>
+                        <li><a href="#about-me" class="item nav-items">Acerca de mi</a></li>
+                        <li><a href="#skills" class="item nav-items">Habilidades</a></li>
                     </ul>
-				</nav>
-                <a href="#" class="item nav-items-contact">Contacteme</a>
+                </nav>
+                <a href="#contact" class="item nav-items-contact">Contacteme</a>
 			</header> <!-- .navegacion-principal END -->
        <div class="jumbotron">
 				<h1 class="jumbotron-title title-big">
@@ -26,40 +25,14 @@
                 <p class="jumbotron-text">Diseñador y Desarrollador Web</p>
         </div> <!-- .jumbotron END -->
 
-        <div class="portfolio-proyect content">
-            <div class="proyects">
-               <h2 class="proyect-title title-center">Portafolio</h2>
-                <section class="colum portfolio-proyect">
-                    <h3 class="proyect-subtitle">Landing-Drupal</h3>
-                    <img class="proyect-imagen" src="imagen/escoger_web.jpg" alt="">
-                    <p class="proyect-text">Proyecto que realice con ayuda del profe Albeto el cual me enseño nuevas tecnicas y material nuevo para hace un mejor trabajo</p>
-                    <a href="" class="visit">Visitar pagina</a>
-                </section>
-                <section class="colum portfolio-proyect">
-                    <h3 class="proyect-subtitle">Caminito</h3>
-                    <img class="proyect-imagen" src="imagen/escoger_web.jpg" alt="">
-                    <p class="proyect-text">Proyecto que realice solo en el cual implemente conocimiento nuevo de lo aprendido en clase y senti una mejora en su elavoracion</p>
-                    <a href="" class="visit">Visitar pagina</a>
-                </section>
-            </div>
-            <div class="proyects">
-                <section class="colum portfolio-proyect">
-                    <h3 class="proyect-subtitle">Iluminada</h3>
-                    <img class="proyect-imagen" src="imagen/escoger_web.jpg" alt="">
-                    <p class="proyect-text">Proyecto que realice en grupo fue uno de los mas duros por que lo trabajamos en un repositorio en conjunto.</p>
-                    <a href="" class="visit">Visitar pagina</a>
-                </section>
-                <section class="colum portfolio-proyect">
-                    <h3 class="proyect-subtitle">Inventario</h3>
-                    <img class="proyect-imagen" src="imagen/escoger_web.jpg" alt="">
-                    <p class="proyect-text">Proyecto que realize con el profe Edison en JS lo cual me gusto xq pude lograr bastante con conocimiento de lo aprendido en clase me senti bien por la mejora alcanzada</p>
-                    <a href="" class="visit">Visitar pagina</a>
-                </section>
-            </div>
+        <div class="portfolio-proyect content" id="portfolio">
+            <h2 class="proyect-title title-center">Portafolio</h2>
+            <div id="works-container">   
+                </div>
                 <a href="#" class="expand">Expand</a>
         </div><!-- .portfolio-proyects END -->
 
-        <div class="about about-content content">
+        <div class="about about-content content" id="about-me">
             <div class="about about-subcontent">
                 <h2 class="about-title title-center">Acerca de mi</h2>
                 <p class="about-description">Buenas bienvenido a mi portafolio en esta seccion conoceras un poco quien soy, mi nombre es Kendoll Herradora Rojas vivo en San Jose,Hatillo me gusta jugar futbol , pasar tiempo con mi familia sobre todo mas cuando la paso con mi hermosa hija la cual me inspiro a trabajr en esto para entregarle un mejor futuro a ella.</p>
@@ -96,7 +69,7 @@
             </div>    
         </div><!-- .content-about END -->
 
-        <div class="skill-content content">
+        <div class="skill-content content" id="skills">
             <div class="colum skill-content-imagen">
                 <h3 class="skill-content-title title-left">Avatar de Kendoll</h3>
                 <img class="skill-content-avatar"src="imagen/avatar.png">
@@ -109,26 +82,26 @@
         <div class="form-content content">
             <h3 class="sub-title">Contact</h3>
             <div class="contact-content">
-            <form action="validacion.php" method="post" class="contact-form" id="form">
+            <form id="form-contact" action="submit" class="contact-form">
                 <p class="clearfix">
                     <label for="name">Name</label>
-                    <input class="textbox textbox-name" type="text" name="Name" placeholder="Nombre" id="name" /><br>
+                    <input id="name"class="textbox textbox-name" type="text" name="name" placeholder="Nombre"  value="" required/><br>
                 </p>
 
                 <p class="clearfix">
                     <label for="email">E-mail</label>
-                    <input class="textbox-name textbox-email" type="text" name="Email" placeholder="Email" id="email" /><br>
+                    <input id="email" class="textbox-name textbox-email" type="text" name="email" placeholder="Email" value="" required/><br>
                 </p>
                     
                 <p class="clearfix-textarea">
                     <label for="message">Mensaje</label>
-                    <textarea class="textbox textbox-message" id="message" placeholder="Mensaje"></textarea>
+                    <textarea id="message" class="textbox textbox-message" placeholder="Mensaje" value="" required></textarea>
                 </p>
-                <input type="button" value="Enviar" class="button-send-form" id="submit" onclick="send()">
+                <input type="button" value="Enviar" class="button-send-form" id="submit-button" value="Enviar">
             </form>
         </div> <!-- /content-contact -->
         </div><!-- .content-form END -->        
-        <footer class="footer">
+        <footer class="footer" id= "contact">
             <section class="footer-section-left">
                   <div class="contact-email">
                     <img class="logo-email"src="imagen/logo-email.png" alt="">
@@ -148,7 +121,9 @@
                   </div>
                 </section>
         </footer>
-         
+        <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/main.js"></script>
         
     </body>
 </html>

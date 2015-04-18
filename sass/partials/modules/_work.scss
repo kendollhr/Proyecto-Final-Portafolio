@@ -1,0 +1,42 @@
+.work-content p {
+	margin-bottom: 20px;
+}
+
+.work-content {
+	margin: 0 auto;
+	width: 755px;
+}
+
+.work-image {
+	text-align: center;
+}
+
+.work-image img {
+	height: 480px;
+	margin-bottom: 50px;
+	width: 640px;
+}
+
+//Navegación de los trabajos(previous/next)
+.works-nav a {
+	color: #fff;
+	text-decoration: none;
+	&:hover {
+		border-radius: 3px solid #fff;
+	}
+}
+
+.works-nav {
+	margin: 50px 0 100px 90px;
+	text-align: center;
+	border-radius: 3px solid #fff;
+}
+
+.works-nav a:nth-child(2) {
+	padding: 0 150px;
+}
+
+.proyect-imagen-details{
+	width: 100%;
+	margin: 100px 0 30px 0;
+}
